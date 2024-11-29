@@ -1,0 +1,119 @@
+.bg-fravega{
+    background-color: #440099;
+}
+.text-violeta{
+    color: #440099;
+}
+
+.d-flex{
+    display: none;
+}
+
+.btn-primary{background-color: #440099;}
+
+.btn-primary:hover{background-color: #c097f2;
+color: #440099;}
+
+a:hover{color: #a66ef0;}
+a{color: #ffffff;}
+
+nav ul{list-style: none;}
+nav a{text-decoration: none;}
+
+.mx-2{color: #440099;}
+
+strong{color: #440099;}
+
+.form-control{background-color:#bba7d5;
+}
+
+.sucursal{color: #440099;}
+
+.navegacion {align-items: center;}
+
+#imagenes-producto img {
+    width: 100%;}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #440099;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+.bg-fravega{
+        background-color: #ffffff;
+    }
+.producto p:nth-of-type(2) {
+font-size: 1.7rem;}
+
+a{font-weight: 650;}
+
+.d-sm-flex{padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+background-color: rgb(220, 220, 220);}
+
+.producto h3{
+font-size: 1.3rem;
+}
+
+.d-sm-flex {
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+nav a {color: #440099;}
+
+
+
+#imagenes-producto img {max-width: 100%;}
+
+#contacto h2{color: #440099;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    a{font-size: 1.3rem;}
+
+#imagenes-producto img {max-width: 100%;}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+    .imagenfrav{align-items: center;}
+    .bg-fravega{
+        background-color: #ffffff;
+    }
+
+.producto p:nth-of-type(2) {
+font-size: 1.6rem;}
+
+.producto h3{
+    font-size: 1.5rem;
+    }
+
+#imagenes-producto img {max-width: 100%;}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ #imagenes-producto img {max-width: 100%;}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+.bg-fravega{
+background-color: #ffffff;
+}
+
+.producto p:nth-of-type(2) {
+font-size: 1.5rem;
+}
+
+#imagenes-producto img {
+max-width: 100%;}
+}
